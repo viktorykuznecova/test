@@ -1,15 +1,11 @@
 
 	header {
-
-
-        display: flex;           /* establish flex container */
-        flex-direction: column;  /* make main axis vertical */
-        align-items: center;     /* center items horizontally, in this case */
+        display: flex;         
+        flex-direction: column; 
+        align-items: center;
 		width: 100%;
 		z-index:999999999;
-
 	}
-
 nav {
   background-color: #fbd341;
   width: 765px;
@@ -18,7 +14,7 @@ nav {
   z-index:999999999;
 	top: 50px;
 	left: 45%;
-          
+         
 }
 #btn-menu{
   display: none;
@@ -354,8 +350,6 @@ display: none;
 			
 			{font-size: 60px;}
 
-		  /*tabs*/
-
 		
 		.nav-tabs {
 			border-bottom: none;
@@ -366,34 +360,6 @@ display: none;
 		{
 			border: none;
 		}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 		.slider
 {
@@ -434,7 +400,7 @@ margin-left: 45px;
 
  .offer
  {
-     background-image: url(img/offer.jpg);
+  	 background-image: url(img/offer.jpg);
      height: 277px;
  }
 
@@ -672,10 +638,7 @@ ul>li>div>ul
 
 
 address.none {
-
 		display: none;
-		background-color:red;
-		
 		}
 
 .logoWA
